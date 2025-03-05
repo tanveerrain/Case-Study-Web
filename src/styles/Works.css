@@ -1,0 +1,114 @@
+/* Works Section */
+.works {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 80px 50px;
+}
+
+/* Works Header */
+.works-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.works-header h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.works-header a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.works-header a:hover {
+    opacity: 1;
+}
+
+/* Work Container */
+.work-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    height: 1751px;
+    width: 1440px;
+    padding: 64px 100px 64px 10px;
+}
+
+/* Work Item */
+.work-item {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #444, #222);
+    padding: 32px;
+    gap: 32px;
+    overflow: hidden;
+    width: 1240px;
+    height: 493px;
+    border-radius: 40px;
+}
+
+.work-item img {
+    width: 572px;
+    height: 429px;
+    border-radius: 10px;
+}
+
+/* Work Content */
+.work-content {
+    width: 572px;
+    height: 429px;
+    justify-content: space-between;
+}
+
+.work-content h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.work-content p {
+    font-size: 16px;
+    opacity: 0.8;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Tags */
+.tags {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.tags span {
+    background: #666;
+    color: white;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+/* Case Study Button */
+.case-study-btn {
+    width: 180px;
+    height: 56px;
+    background: white;
+    color: black;
+    padding: 8px 15px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.case-study-btn:hover {
+    background: #ddd;
+}
